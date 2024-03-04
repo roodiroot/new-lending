@@ -1,3 +1,10 @@
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Документы компании',
+  description: 'Политика в отношении обработки персональных данных.',
+};
+
 const PrivacyPage = () => {
   return (
     <div className="relative py-24 sm:py-32">
