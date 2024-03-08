@@ -27,7 +27,7 @@ const PortfolioElement: React.FC<PortfolioElementProps> = ({
     href={link}
     target="_blank"
     className={cn(
-      'relative overflow-hidden rounded-[35px] md:rounded-[70px] bg-accent aspect-1 ',
+      'relative overflow-hidden h-full isolate rounded-[35px] md:rounded-[70px] bg-accent aspect-1 ',
       className
     )}
     {...props}
