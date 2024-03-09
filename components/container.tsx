@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils';
 
 interface ContainerProps extends React.HtmlHTMLAttributes<HTMLDivElement> {}
 
@@ -11,7 +11,7 @@ const Container: React.FC<ContainerProps> = ({
     <section
       {...props}
       className={cn(
-        "max-w-[1920px] mx-auto w-full h-full px-4 sm:px-8 xl:px-16",
+        'max-w-[1920px] mx-auto w-full h-full px-4 sm:px-8 xl:px-16',
         className
       )}
     >

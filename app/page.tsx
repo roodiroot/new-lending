@@ -11,10 +11,10 @@ export default function Home() {
     <main className="pt-9">
       <HeroSection />
       <BenefitsSection className="py-8" />
-      <StepsSection className="py-8" />
+      <StepsSection className="py-8 px-0 *:rounded-none" />
       <CTASection className="py-8" />
       <PortfolioSection className="py-8" />
-      <OverviewSection className="py-8" />
+      <OverviewSection className="py-8 px-0 *:rounded-none" />
       <ContactsSection className="pt-8" />
     </main>
   );

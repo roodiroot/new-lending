@@ -42,14 +42,16 @@ const PortfolioElement: React.FC<PortfolioElementProps> = ({
     />
     <div
       className={cn(
-        'relative w-full h-full z-10 text-center p-4 sm:p-6 lg:p-14 pointer-events-none',
+        'relative w-full h-full z-10 text-center p-2 sm:p-4 lg:p-8 xl:p-12 pointer-events-none',
         bg === BGPortfolio.light
           ? 'text-accent dark:text-accent'
           : 'text-white dark:text-white'
       )}
     >
-      <h3 className="text-3xl font-semibold tracking-tight">{title}</h3>
-      <h3 className="hidden lg:inline-block sm:mt-3">{description}</h3>
+      <h3 className=" font-semibold tracking-tight text-xl lg:text-3xl">
+        {title}
+      </h3>
+      <h3 className="text-sm mt-1 md:mt-3 sm:text-base  ">{description}</h3>
     </div>
   </a>
 );

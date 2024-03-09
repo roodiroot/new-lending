@@ -7,6 +7,7 @@ import Footer from '@/components/sections/footer/footer';
 import './globals.css';
 import ThemeProvider from '@/providers/theme-provider';
 import OverlaysCombain from '@/components/overlays/overlays-combain';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://moskow.matryoshka-studio.ru/'),
