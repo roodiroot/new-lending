@@ -1,13 +1,13 @@
+import { Suspense } from 'react';
 import type { Metadata } from 'next';
 
-import { beautifulFont } from './fonts';
 import Header from '@/components/sections/header/header';
 import Footer from '@/components/sections/footer/footer';
-
-import './globals.css';
 import ThemeProvider from '@/providers/theme-provider';
 import OverlaysCombain from '@/components/overlays/overlays-combain';
-import Script from 'next/script';
+import YMetrika from '@/components/metrika/y-metrika';
+import { beautifulFont } from '@/app/fonts';
+import './globals.css';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://moskow.matryoshka-studio.ru/'),
@@ -39,6 +39,9 @@ export default function RootLayout({
           <Footer />
           <OverlaysCombain />
         </ThemeProvider>
+        <Suspense>
+          <YMetrika />
+        </Suspense>
       </body>
     </html>
   );

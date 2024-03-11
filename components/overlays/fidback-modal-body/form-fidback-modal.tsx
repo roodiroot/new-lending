@@ -38,6 +38,8 @@ const FormFidbackModal: React.FC<FormFidbackModalProps> = ({
   const submit = (value: z.infer<typeof BriefSchema>) => {
     startTransition(() => {
       sendMessage(value).then((data: any) => {
+        //@ts-ignore
+        window.ym(96707011, 'reachGoal', 'submit');
         form.reset();
         if (onClose) onClose();
         setTimeout(() => {
