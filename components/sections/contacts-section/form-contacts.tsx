@@ -28,7 +28,7 @@ const FormContacts = () => {
     startTransition(() => {
       sendMessage(value).then((data: any) => {
         //@ts-ignore
-        window.ym(96707011, 'reachGoal', 'submit');
+        ym(96707011, 'reachGoal', 'submit');
         form.reset();
         router.push('/thank-you');
       });

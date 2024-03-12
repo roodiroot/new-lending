@@ -31,7 +31,7 @@ const BriefForm: React.FC<BriefFormProps> = ({ answer, ...props }) => {
     startTransition(() => {
       sendMessage(value, answer && JSON.stringify(answer)).then((data: any) => {
         //@ts-ignore
-        window.ym(96707011, 'reachGoal', 'brief');
+        ym(96707011, 'reachGoal', 'brief');
         router.push('/thank-you');
       });
     });

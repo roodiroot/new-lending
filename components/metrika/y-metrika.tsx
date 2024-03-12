@@ -9,7 +9,7 @@ const YMetrika = () => {
   const searchParams = useSearchParams();
   useEffect(() => {
     //@ts-ignore
-    ym(96375985, 'hit', window.location.href);
+    ym(96707011, 'hit', window.location.href);
   }, [pathName, searchParams]);
   return (
     <Script id="yandex-metrika">
@@ -19,13 +19,13 @@ const YMetrika = () => {
         for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
         k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
         (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
+     
         ym(96707011, "init", {
-          defer: true,
-          clickmap:true,
-          trackLinks:true,
-          accurateTrackBounce:true,
-          webvisor:true
+             defer: true,
+             clickmap:true,
+             trackLinks:true,
+             accurateTrackBounce:true,
+             webvisor:true
         });
       `}
     </Script>
