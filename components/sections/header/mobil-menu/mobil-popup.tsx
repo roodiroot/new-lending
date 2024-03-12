@@ -49,17 +49,26 @@ const MobilPopup: React.FC<MobilPopupProps> = ({ close, className }) => (
         </div>
         <div className="border border-accent-400/20 -mx-8 sm:-mx-10"></div>
         <div className="pt-8 flex flex-col gap-y-10 sm:flex-row sm:items-end ">
-          <MenuItem className="flex-1 flex flex-col gap-3">
-            <a
-              href="mailto:hello@matryoshka-studio.ru"
-              className="text-white text-lg"
-            >
-              hello@matryoshka-studio.ru
-            </a>
-            <a href="tel:+79875704514" className="text-white text-lg">
-              + 7 (987) 570-45-14
-            </a>
-          </MenuItem>
+          <div className="flex-1 flex flex-col gap-3">
+            <MenuItem className="">
+              <a href="tel:+79170054944" className="text-white text-lg">
+                + 7 (917) 005-49-44
+              </a>
+            </MenuItem>
+            <MenuItem className="">
+              <a href="tel:+79875704514" className="text-white text-lg">
+                + 7 (987) 570-45-14
+              </a>
+            </MenuItem>
+            <MenuItem className="">
+              <a
+                href="mailto:hello@matryoshka-studio.ru"
+                className="text-white text-lg"
+              >
+                hello@matryoshka-studio.ru
+              </a>
+            </MenuItem>
+          </div>
           <MenuItem className="text-white/70 text-xs">
             <Link onClick={close} href={'/privacy'}>
               Политика конфиденциальности
