@@ -27,7 +27,7 @@ const HeroSection = () => {
           <div className="hidden lg:block w-full max-w-[281px] pb-10">
             <p className="text-lg font-semibold tracking-tight">Расчет</p>
             <p className=" text-3xl tracking-tight mt-5 leading-[45px]">
-              Давайте Бесплатно расчитем для Вас цену?
+              Давайте Бесплатно рассчитем для Вас цену?
             </p>
             <OpenModalButton className="mt-4">Рассчитать</OpenModalButton>
           </div>
@@ -53,7 +53,7 @@ const HeroSection = () => {
           </div>
           <div className="mt-14 max-w-xl lg:hidden">
             <p className=" text-3xl tracking-tight mt-5 leading-[45px]">
-              Давайте Бесплатно расчитем для Вас стоимость?
+              Давайте Бесплатно рассчитем для Вас стоимость?
             </p>
             <OpenModalButton className="mt-4">Рассчитать</OpenModalButton>
           </div>

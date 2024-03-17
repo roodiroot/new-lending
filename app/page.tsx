@@ -5,6 +5,7 @@ import HeroSection from '@/components/sections/hero-section/hero-section';
 import OverviewSection from '@/components/sections/overview-section/overview-section';
 import PortfolioSection from '@/components/sections/portfolio-section/portfolio-section';
 import StepsSection from '@/components/sections/steps-section/steps-section';
+import TiskerSection from '@/components/sections/tisker/tisker-section';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <CTASection className="py-8" />
       <PortfolioSection className="py-8" />
       <OverviewSection className="py-8 px-0 *:rounded-none" />
+      <TiskerSection />
       <ContactsSection className="pt-8" />
     </main>
   );
