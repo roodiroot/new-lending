@@ -11,6 +11,7 @@ export const metadata: Metadata = {
 };
 
 const BriefPage = () => {
+  console.log('NataliaS1981&' === 'NataliaS1981&');
   return (
     <>
       <Wrapper className="mt-9 px-0 *:rounded-none">

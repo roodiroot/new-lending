@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 const PrivacyPage = () => {
   return (
     <div className="relative py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 text-white deark:text-white">
         <div>
-          <h2 className="text-3xl">
+          <h2 className="text-3xl ">
             Политика по использованию персональных данных
           </h2>
           <p className="mt-10">
